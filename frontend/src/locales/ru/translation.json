@@ -1,0 +1,65 @@
+{
+  "common": {
+    "search": "Поиск",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успешно"
+  },
+  "auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "email": "Email",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль?",
+    "loginButton": "Войти",
+    "registerButton": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "hasAccount": "Уже есть аккаунт?"
+  },
+  "clinics": {
+    "title": "Ветеринарные клиники",
+    "searchPlaceholder": "Поиск клиник...",
+    "filters": {
+      "title": "Фильтры",
+      "rating": "Рейтинг",
+      "distance": "Расстояние",
+      "services": "Услуги"
+    },
+    "card": {
+      "rating": "Рейтинг",
+      "address": "Адрес",
+      "phone": "Телефон",
+      "workingHours": "Часы работы",
+      "services": "Услуги"
+    }
+  },
+  "petPassport": {
+    "title": "Ветеринарный паспорт",
+    "basicInfo": {
+      "title": "Основная информация",
+      "name": "Кличка",
+      "species": "Вид",
+      "breed": "Порода",
+      "birthDate": "Дата рождения",
+      "gender": "Пол"
+    },
+    "medicalInfo": {
+      "title": "Медицинская информация",
+      "weight": "Вес",
+      "height": "Рост",
+      "lastVisit": "Последний визит",
+      "nextVisit": "Следующий визит"
+    },
+    "vaccinations": {
+      "title": "Вакцинации",
+      "add": "Добавить вакцинацию",
+      "date": "Дата",
+      "type": "Тип",
+      "nextDate": "Следующая дата"
+    }
+  }
+} 

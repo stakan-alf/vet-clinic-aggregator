@@ -1,0 +1,65 @@
+{
+  "common": {
+    "search": "Suchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "loading": "Laden...",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "auth": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "forgotPassword": "Passwort vergessen?",
+    "loginButton": "Anmelden",
+    "registerButton": "Registrieren",
+    "noAccount": "Kein Konto?",
+    "hasAccount": "Bereits ein Konto?"
+  },
+  "clinics": {
+    "title": "Tierarztpraxen",
+    "searchPlaceholder": "Praxen suchen...",
+    "filters": {
+      "title": "Filter",
+      "rating": "Bewertung",
+      "distance": "Entfernung",
+      "services": "Leistungen"
+    },
+    "card": {
+      "rating": "Bewertung",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "workingHours": "Öffnungszeiten",
+      "services": "Leistungen"
+    }
+  },
+  "petPassport": {
+    "title": "Tierpass",
+    "basicInfo": {
+      "title": "Grundinformationen",
+      "name": "Name",
+      "species": "Tierart",
+      "breed": "Rasse",
+      "birthDate": "Geburtsdatum",
+      "gender": "Geschlecht"
+    },
+    "medicalInfo": {
+      "title": "Medizinische Informationen",
+      "weight": "Gewicht",
+      "height": "Größe",
+      "lastVisit": "Letzter Besuch",
+      "nextVisit": "Nächster Besuch"
+    },
+    "vaccinations": {
+      "title": "Impfungen",
+      "add": "Impfung hinzufügen",
+      "date": "Datum",
+      "type": "Typ",
+      "nextDate": "Nächstes Datum"
+    }
+  }
+} 

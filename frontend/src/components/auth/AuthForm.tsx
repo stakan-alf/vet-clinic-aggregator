@@ -10,8 +10,10 @@ import {
   Paper,
   Link,
   CircularProgress,
+  IconButton,
+  InputAdornment,
 } from '@mui/material';
-import { Google as GoogleIcon } from '@mui/icons-material';
+import { Google as GoogleIcon, Visibility, VisibilityOff } from '@mui/icons-material';
 
 const authSchema = z.object({
   email: z.string().email('Введите корректный email'),
@@ -23,16 +25,18 @@ type AuthFormData = z.infer<typeof authSchema>;
 interface AuthFormProps {
   type: 'login' | 'register' | 'reset';
   onSubmit: (data: AuthFormData) => Promise<void>;
-  onGoogleLogin: () => Promise<void>;
+  onGoogleAuth: () => void;
   isLoading: boolean;
 }
 
 export const AuthForm: React.FC<AuthFormProps> = ({
   type,
   onSubmit,
-  onGoogleLogin,
+  onGoogleAuth,
   isLoading,
 }) => {
+  const [showPassword, setShowPassword] = React.useState(false);
+
   const {
     register,
     handleSubmit,
@@ -82,12 +86,24 @@ export const AuthForm: React.FC<AuthFormProps> = ({
         {type !== 'reset' && (
           <TextField
             fullWidth
-            type="password"
+            type={showPassword ? 'text' : 'password'}
             label="Пароль"
             margin="normal"
             error={!!errors.password}
             helperText={errors.password?.message}
             {...register('password')}
+            InputProps={{
+              endAdornment: (
+                <InputAdornment position="end">
+                  <IconButton
+                    onClick={() => setShowPassword(!showPassword)}
+                    edge="end"
+                  >
+                    {showPassword ? <VisibilityOff /> : <Visibility />}
+                  </IconButton>
+                </InputAdornment>
+              ),
+            }}
           />
         )}
 
@@ -105,7 +121,7 @@ export const AuthForm: React.FC<AuthFormProps> = ({
           fullWidth
           variant="outlined"
           startIcon={<GoogleIcon />}
-          onClick={onGoogleLogin}
+          onClick={onGoogleAuth}
           sx={{ mt: 2 }}
         >
           Войти через Google

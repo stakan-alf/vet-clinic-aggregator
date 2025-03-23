@@ -1,0 +1,65 @@
+{
+  "common": {
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign in",
+    "registerButton": "Sign up",
+    "noAccount": "No account?",
+    "hasAccount": "Already have an account?"
+  },
+  "clinics": {
+    "title": "Veterinary Clinics",
+    "searchPlaceholder": "Search clinics...",
+    "filters": {
+      "title": "Filters",
+      "rating": "Rating",
+      "distance": "Distance",
+      "services": "Services"
+    },
+    "card": {
+      "rating": "Rating",
+      "address": "Address",
+      "phone": "Phone",
+      "workingHours": "Working hours",
+      "services": "Services"
+    }
+  },
+  "petPassport": {
+    "title": "Pet Passport",
+    "basicInfo": {
+      "title": "Basic Information",
+      "name": "Name",
+      "species": "Species",
+      "breed": "Breed",
+      "birthDate": "Birth date",
+      "gender": "Gender"
+    },
+    "medicalInfo": {
+      "title": "Medical Information",
+      "weight": "Weight",
+      "height": "Height",
+      "lastVisit": "Last visit",
+      "nextVisit": "Next visit"
+    },
+    "vaccinations": {
+      "title": "Vaccinations",
+      "add": "Add vaccination",
+      "date": "Date",
+      "type": "Type",
+      "nextDate": "Next date"
+    }
+  }
+} 

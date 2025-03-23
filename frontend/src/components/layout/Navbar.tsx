@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import { AccountCircle } from '@mui/icons-material';
 import { RootState } from '../../store';
-import { logout } from '../../store/slices/authSlice';
+import { clearUser } from '../../store/slices/authSlice';
 
 const Navbar: React.FC = () => {
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
   };
 
   const handleLogout = () => {
-    dispatch(logout());
+    dispatch(clearUser());
     navigate('/login');
   };
 
