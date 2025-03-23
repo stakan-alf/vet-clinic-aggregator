@@ -1,0 +1,4 @@
+name,address,city,postal_code,phone,email,website,working_hours,services
+"ВетКлиника №1","ул. Ленина, 10","Москва","123456","+74951234567","info@vetclinic1.ru","https://vetclinic1.ru","Mo-Fr 9-18, Sa 10-14","Вакцинация,Хирургия,Стоматология"
+"ВетКлиника №2","пр. Мира, 25","Москва","123457","+74952345678","info@vetclinic2.ru","https://vetclinic2.ru","Mo-Fr 10-20, Sa-Su 10-16","Вакцинация,Терапия,УЗИ"
+"ВетКлиника №3","ул. Тверская, 15","Москва","123458","+74953456789","info@vetclinic3.ru","https://vetclinic3.ru","Mo-Fr 8-20, Sa 9-15","Вакцинация,Хирургия,Терапия,УЗИ" 
